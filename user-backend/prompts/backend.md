@@ -16,6 +16,7 @@ The API should support clean, predictable CRUD operations for users.
 - **Resource:** User
 - **Data Storage:** In-memory (dictionary or list), no database
 - **Schema Validation:** Use Pydantic models for request/response schemas
+- **Code Style:** Follow PEP 8 conventions (snake_case for functions/variables, proper spacing, line length ≤ 79-88 chars)
 
 ### User Model
 - `id`: integer (auto-generated)
